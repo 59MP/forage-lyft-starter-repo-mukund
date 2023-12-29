@@ -1,7 +1,7 @@
-from abc IMPORT abc, abstractmethod
+from abc import ABC, abstractmethod
 
 class Serviceable(ABC):
 
     @abstractmethod
-    def needs_service(self) -> boolean:
+    def needs_service(self) -> bool:
         pass
